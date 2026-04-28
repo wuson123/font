@@ -1,5 +1,3 @@
-## Skeleton-Guided Deformable Alignment for Structurally Robust Few-Shot Font Generation
-
 ## Dependencies
 
 ### Prerequisites 
@@ -35,7 +33,7 @@ CUDA 12.4
    Put your font files to a folder and character file to charset
 
 ```
-├──data_examples
+├──datas
 │   └── train
 │       ├── ContentImage
 │       │   ├── char1.png
@@ -50,10 +48,6 @@ CUDA 12.4
 │           ├── style2
 │           │     ├──style2+char1.png
 │           │     ├──style2+char2.png
-│           │     └── ...
-│           ├── style3
-│           │     ├──style3+char1.png
-│           │     ├──style3+char2.png
 │           │     └── ...
 │           └── ...
 ```
